@@ -56,7 +56,7 @@ ROOT_URLCONF = 'eab.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['eab/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
