@@ -27,7 +27,51 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.eab">
+    <configuration name="Checksum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="eab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PayTm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PayTm/Checksum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="eab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shop/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="eab" type="Python.DjangoServer" factoryName="Django server">
       <module name="eab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,6 +96,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.Checksum" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +131,9 @@
       <workItem from="1600975811503" duration="1586000" />
       <workItem from="1600978975337" duration="15000" />
       <workItem from="1600979006433" duration="4056000" />
-      <workItem from="1601020977048" duration="1708000" />
+      <workItem from="1601020977048" duration="4946000" />
+      <workItem from="1601025975227" duration="1212000" />
+      <workItem from="1601046171801" duration="6054000" />
     </task>
     <servers />
   </component>
@@ -97,22 +149,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600978987363" />
-    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1601022757761">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1601052312974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601022757761" />
-    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1601022757761">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601052312974" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1601052312973">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601022757761" />
-    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1601022757760">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601052312973" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1601052312973">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601022757760" />
-    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1601022757761">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601052312973" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1601052312973">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601022757761" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601052312973" />
     <state x="477" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1600804381333">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -121,5 +173,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1600964659629" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/eab$views.coverage" NAME="views Coverage Results" MODIFIED="1601047560813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop" />
+    <SUITE FILE_PATH="coverage/eab$Checksum.coverage" NAME="Checksum Coverage Results" MODIFIED="1601047493083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PayTm" />
   </component>
 </project>
