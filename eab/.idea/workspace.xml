@@ -7,11 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -26,6 +29,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hridoy Alam\Desktop\cse327project\eab\shop" />
+      <recent name="C:\Users\Hridoy Alam\Desktop\cse327project\eab\" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.eab">
     <configuration name="Checksum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -133,7 +142,14 @@
       <workItem from="1600979006433" duration="4056000" />
       <workItem from="1601020977048" duration="4946000" />
       <workItem from="1601025975227" duration="1212000" />
-      <workItem from="1601046171801" duration="6054000" />
+      <workItem from="1601046171801" duration="8953000" />
+      <workItem from="1601064613834" duration="249000" />
+      <workItem from="1601205977529" duration="2211000" />
+      <workItem from="1601215187253" duration="4168000" />
+      <workItem from="1601219375654" duration="692000" />
+      <workItem from="1601278117735" duration="2542000" />
+      <workItem from="1601280681811" duration="1710000" />
+      <workItem from="1601282407855" duration="739000" />
     </task>
     <servers />
   </component>
@@ -145,26 +161,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1600796342033" />
+    <state x="527" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601215778985">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="527" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1601215778985" />
     <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1600978987363">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600978987363" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1601052312974">
+    <state width="926" height="200" key="GridCell.Tab.0.bottom" timestamp="1601220067828">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601052312974" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1601052312973">
+    <state width="926" height="200" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601220067828" />
+    <state width="926" height="200" key="GridCell.Tab.0.center" timestamp="1601220067828">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601052312973" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1601052312973">
+    <state width="926" height="200" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601220067828" />
+    <state width="926" height="200" key="GridCell.Tab.0.left" timestamp="1601220067828">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601052312973" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1601052312973">
+    <state width="926" height="200" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601220067828" />
+    <state width="926" height="200" key="GridCell.Tab.0.right" timestamp="1601220067828">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601052312973" />
+    <state width="926" height="200" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601220067828" />
     <state x="477" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1600804381333">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
