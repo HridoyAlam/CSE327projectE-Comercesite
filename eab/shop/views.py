@@ -1,12 +1,13 @@
 from django.shortcuts import render
 
+# Create your views here.
 from django.http import HttpResponse
 
 def index(request):
     return render(request, 'shop/index.html')
 
 def about(request):
-    return HttpResponse("We are at about")
+    return render(request, 'shop/about.html')
 
 def contact(request):
     return HttpResponse("We are at contact")
@@ -22,4 +23,5 @@ def productView(request):
 
 def checkout(request):
     return HttpResponse("We are at checkout")
+
 
