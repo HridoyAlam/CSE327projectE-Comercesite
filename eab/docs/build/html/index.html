@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documenttation</title>
+</head>
+<body style="margin: 0%;width: 90%;margin: auto;">
+    <div class="intro">
+        <h1>Configureation of Project Environment</h1>
+        <p>This is a project of cse327. We are tried to develop a Ecomerce website
+            name as <b>EASYBUY</b> using Python3, Django, SQL and Bootstarp.
+        </p>
+    </div>
+    <div class="table_of_content">
+        <h3>Table of content</h3>
+        <ul>
+            <li>
+                Configureation of Project Environment
+                <ul>
+                    <li>Overview on how to run this project</li>
+                    <li>Setup procedure</li>
+                    <li>Endpoints of the EASYBUY</li>
+                </ul>
+
+            </li>
+            <li>
+                Documentation for the code
+                <ul>
+                    <li>EASYBUY main
+                        <ul>
+                            <li>Home page</li>
+                            <li>About Us</li>
+                            <li>Tracker</li>
+                            <li>Checkout</li>
+                            <li>Contact US</li>
+                            <li>Add to cart</li>
+                            <li>Product Quicview</li>
+                            <li>Search</li>
+                            <li>Payment</li>
+                        </ul>
+                    </li>
+
+                    <li>EASYBUY models</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="overview">
+        <h1>Overview on how to run this Project</h1>
+        <ol>
+            <li>Either install a Python IDE or create a Python virtual
+                environment to install the packages required</li>
+            <li>Install packages required</li>
+            <li>Install Spinex</li>
+        </ol>
+    </div>
+    <div class="setup">
+        <h1>Setup procedure</h1>
+        <ol>
+            <li>Configure project environment
+                 (Either A. Install Pycharm OR B. Create a Virtual Environment)
+
+                <ol>
+                    <li>Install Pycharm (www.jetbrains.com/pycharm/download/)
+                        <ul>
+                            <li>
+                                Open the eab(EASYBUY) Directory (File -> Open)
+                            </li>
+                            <li>
+                                Configure the Base Project Interpreter (File -> Settings -> Project Interpreter)
+                                <li>
+                                    Base Project Interpreter: pyenv version 3.6.2 (‘path to .pyenv version 3.6.2’/bin/python)
+                                    (pyenv was installed before creating the new project through ‘pyenv install 3.6.3’)
+                                </li>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                Create a Python Virtual Environment
+                <ul>
+                    <li>
+                        Install virtualenv:<br/>sudo pip install virtualenv
+                    </li>
+                    <li>
+                        Create virtialenv:<br/>virtualenv -p python3 <name of virtualenv></name>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Run <br/> <i>python manage.py runserver</i>
+
+
+            </li>
+        </ol>
+    </div>
+
+    <div class="endpoint">
+        <h1>Endpoints of the EASYBUY!</h1>
+        <ol>
+            <li>Browse the website</li>
+            <li>Quick view the prodcut</li>
+            <li>Add product</li>
+            <li>Go to checkout</li>
+            <li>Provide necessary informtation</li>
+            <li>Make Payment</li>
+        </ol>
+    </div>
+
+    <div class="documemtation_code">
+        <h1>Documentation for the Code</h1>
+
+        <h2>EASYBUY Home</h2>
+
+        <!--
+            home page documentation
+
+
+        -->
+        <!-- About Us-->
+
+
+        <!-- Tracker-->
+
+        <!-- Check Out-->
+        <h3>Checkout</h3>
+
+        <!-- Contact us-->
+
+        <!-- Add to cart-->
+
+        <!-- Product Quickview-->
+
+        <!-- Search-->
+
+        <!-- Payment-->
+        <h3>Payment</h3>
+        <p>
+            For Payment process, we tried to integrated Paytm gateways.
+            Before integrating the payment gateways we had fetch the total amount
+            into our existing model (models.py)
+            We add a new object named "amount(amount=models.IntegerField(default=0))"
+            and migrate the changes in the database
+            then added "<input type="hidden" name="amount" id="amount">" for reciveing the amount
+            also write the jQuery function in the template(checkout.html)
+            $('#amount').val($('#totalPrice').html())
+            we  create a new directory for Paytm integration. In the shop folder and create a new directory named Paytm.
+             Inside this directory, created a new file named "Checksum.py."
+             After this, we went to the Github repository of the Paytm.we found find the following files on the Paytm repository :
+
+            Checksum.py
+            response.cgi
+            test.cgi
+            Now, we need to make some changes in the checksum file. Type ".encode('utf-8')" after "key", "IV" and "to_encode".
+            <br>
+
+            <a href="https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Python/blob/master/pythonKit%203.X/test.cgi">PayTm github link</a>
+
+        </p>
+
+
+        <h2>EASYBUY models</h2>
+        <p style="font-size: 14px; font-style: italic;">
+            class shop.models.Prodcut(product_id=None,
+             product_name= None, category = None,
+             subcategory = None, price = None, desc = none,
+             pub_date = None,image = None) <br/>
+        </p>
+        <h5 style=" margin:0;margin-top:5px;">This class is the model of product record.</h5>
+        <p style="font-size: 14px; font-style: italic;">
+            class shop.model.Contact(msg_id = none, name = None,
+            email= None, phone= None, desc = None) <br/>
+
+
+        </p>
+        <h5>This is the model of contact record.</h5>
+        <p style="font-size: 14px; font-style: italic;">
+            class shop.models.Orders(oreder = None, items_jason = none,
+            amount = None, name = None, email = None, adress = None,
+            city = None, state = None,zip_code = None, phone = None,
+            ) <br>
+
+
+        </p>
+        <h5>This class is the model of Orders</h5>
+        <p style="font-size: 14px; font-style: italic;">
+         class shop.models.OrderUpdate(
+             update_id = None, order_id = None, update_desc = None, timestamp = None
+         ) <br>
+
+        </p>
+        <h5>This is the model of order update</h5>
+    </div>
+
+</body>
+</html>
