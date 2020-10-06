@@ -127,6 +127,25 @@
 
         <!-- Check Out-->
         <h3>Checkout</h3>
+        <p>
+            we've created an array that stores the quantity and the name of the cart item.
+             So, if the cart is empty then the else loop will execute and the quantity will be set to 1.
+             And, if the cart is not empty then the if loop will execute and the quantity will be incremented by 1.
+            We are using the index number to access the quantity of the items from the array. Therefore,
+            we need to replace cart[idstr] with cart[idstr][0].<br>
+            Then we made a model for the orders and migrate it, We need to handle to orders in the views.py
+
+            order = Orders(items_json= items_json, name=name, email=email, address= address, city=city, state=state, zip_code=zip_code, phone=phone)
+        order.save().
+
+        After this, we need to define the HTTP method and CSRF token in the form of the checkout.html file.
+
+
+        <form method="post" action="/shop/checkout/">{% csrf_token %}
+            <input type="hidden" name="itemsJson" id="itemsJson">
+
+
+        </p>
 
         <!-- Contact us-->
 
