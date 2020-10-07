@@ -1,0 +1,35 @@
+EasyBuy's Product List Documentation
+=====================================
+
+This documentation page shows all the details of the product list (home page) of our EasyBuy e-commerce web
+appication.
+
+ * In this product list page all the products added in our database directory will be visible.
+ * There will be a block for each product showing the name, image, description of the product.
+ * The products will be seperated by category as specified in the database.
+ * There will be slide view of the products.
+ * On both sides of a slide there will be arrow which will arrow the user to navigate and search through products.
+ * The blocks will have option of quick view and add to cart.
+ * By clicking on the button "Quick View" user will be navigated to the product view/detail page.
+ * The logic behind how products will be shown on the home page through slides is,
+
+   if, number of item = n,
+       The slides number will be n//4+1, (n is not divisible by 4)
+       The slides number will be n//4, (n is divisible by 4)
+
+   The formula used in the index function (views.py) to implement slide view of products is,
+       nslides =  n//4 + ceil (n/4-n//4); here ciel is the least integer number.
+
+.. figure:: /images/productList.png
+   :alt: EasyBuy configuration
+   :align: center
+
+   *Product List (Home Page)*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   prodView
+
+
