@@ -18,17 +18,17 @@ class orderTest(TestCase):
                                                                city='cumilla', state='cu', zip_code='3583',
                                                                phone='sgdbj')
         self.order_id.save()
-        self.timestamp = date.today()
+
         self.order = Orders(
             order_id=self.order_id,
-            items_jason=self.item_jason
-            amount = self.amount
-            email = self.email
-            address = self.address
-            city = self.city
-            state = self.state
-            zip_code = self.zip_code
-            phone = self.phone
+            items_jason=self.item_jason,
+            amount = self.amount,
+            email = self.email,
+            address = self.address,
+            city = self.city,
+            state = self.state,
+            zip_code = self.zip_code,
+            phone = self.phone,
         )
         self.order.save()
 
