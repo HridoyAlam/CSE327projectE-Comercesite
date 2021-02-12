@@ -37,6 +37,26 @@
     </key>
   </component>
   <component name="RunManager" selected="Django server.eab">
+    <configuration name="Test: shop.tests.orderTest.test_update_order_city" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="eab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="shop.tests.orderTest.test_update_order_city" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Checksum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="eab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: shop.tests.orderTest.test_update_order_city" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.Checksum" />
       </list>
@@ -155,6 +176,8 @@
       <workItem from="1602004798249" duration="163000" />
       <workItem from="1602005104502" duration="34000" />
       <workItem from="1602009549043" duration="2288000" />
+      <workItem from="1602013951428" duration="193000" />
+      <workItem from="1602048361927" duration="6659000" />
     </task>
     <servers />
   </component>
@@ -178,22 +201,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1602005135983" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1602013364222">
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1602056969572">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602013364222" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1602013364222">
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602056969572" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1602056969571">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602013364222" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1602013364222">
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602056969571" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1602056969571">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602013364222" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1602013364222">
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602056969571" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1602056969571">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602013364222" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602056969571" />
     <state x="477" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1600804381333">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -205,6 +228,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/eab$views.coverage" NAME="views Coverage Results" MODIFIED="1601047560813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop" />
+    <SUITE FILE_PATH="coverage/eab$Test__shop_tests_orderTest_test_update_order_city.coverage" NAME="Test: shop.tests.orderTest.test_update_order_city Coverage Results" MODIFIED="1602048940212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/eab$Checksum.coverage" NAME="Checksum Coverage Results" MODIFIED="1601047493083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PayTm" />
   </component>
 </project>
